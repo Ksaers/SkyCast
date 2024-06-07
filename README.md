@@ -65,7 +65,7 @@ String weatherApiKey = "your_openweather_api_key";
 String geoApiKey = "your_ipgeolocation_api_key";
 ```
 
-Видео на заднем фоне
+### Видео на заднем фоне
 Видео на заднем плане bgSkyCastRain.mp4 должно быть размещено в каталоге ресурсов. Вы можете заменить это видео любым другим видео по вашему выбору.
 
 ### Лицензия
