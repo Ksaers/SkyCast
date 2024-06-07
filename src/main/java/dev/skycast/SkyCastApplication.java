@@ -17,7 +17,7 @@ public class SkyCastApplication extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(SkyCastApplication.class.getResource("weatherpulse-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(SkyCastApplication.class.getResource("skycast-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
 
 

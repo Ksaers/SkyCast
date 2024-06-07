@@ -27,7 +27,7 @@ public class ScyCastController {
     private String geoApiKey = "99407ebef7d84b7486cdb5ee1d1340b7";
 
     @FXML
-    private AnchorPane bgWeatherPulse;
+    private AnchorPane bgSkyCast;
 
     @FXML
     Label txtDate;
@@ -101,27 +101,32 @@ public class ScyCastController {
     }
 
     private void setupVideoBackground() {
-        // Загрузка видеофайла
-        String videoPath = "bgWeatherPulseRain.mp4";
-        Media media = new Media(getClass().getResource(videoPath).toExternalForm());
+        try {
+            // Загрузка видеофайла
+            String videoPath = "/dev/skycast/bgSkyCastRain.mp4";
+            Media media = new Media(getClass().getResource(videoPath).toExternalForm());
 
-        // Создание MediaPlayer
-        MediaPlayer mediaPlayer = new MediaPlayer(media);
-        mediaPlayer.setAutoPlay(true);
-        mediaPlayer.setCycleCount(MediaPlayer.INDEFINITE); // Зацикливание видео
+            // Создание MediaPlayer
+            MediaPlayer mediaPlayer = new MediaPlayer(media);
+            mediaPlayer.setAutoPlay(true);
+            mediaPlayer.setCycleCount(MediaPlayer.INDEFINITE); // Зацикливание видео
 
-        // Создание MediaView для отображения видео
-        MediaView mediaView = new MediaView(mediaPlayer);
+            // Создание MediaView для отображения видео
+            MediaView mediaView = new MediaView(mediaPlayer);
 
-        // Установка размера MediaView для соответствия размерам AnchorPane
-        mediaView.fitWidthProperty().bind(bgWeatherPulse.widthProperty());
-        mediaView.fitHeightProperty().bind(bgWeatherPulse.heightProperty());
+            // Установка размера MediaView для соответствия размерам AnchorPane
+            mediaView.fitWidthProperty().bind(bgSkyCast.widthProperty());
+            mediaView.fitHeightProperty().bind(bgSkyCast.heightProperty());
 
-        // Добавление MediaView в AnchorPane
-        bgWeatherPulse.getChildren().add(mediaView);
+            // Добавление MediaView в AnchorPane
+            bgSkyCast.getChildren().add(mediaView);
 
-        // Отправка MediaView на задний план
-        mediaView.toBack();
+            // Отправка MediaView на задний план
+            mediaView.toBack();
+        } catch (NullPointerException e) {
+            e.printStackTrace();
+            System.out.println("Ошибка: Видео файл не найден. Проверьте путь к файлу.");
+        }
     }
 
     void startLiveTimeUpdate() {
