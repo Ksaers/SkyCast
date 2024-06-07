@@ -24,7 +24,7 @@
 bash
 Копировать код
 ```
-git clone https://github.com/yourusername/skycast.git
+git clone https://github.com/Ksaers/SkyCast.git
 ```
 ```
 cd skycast
