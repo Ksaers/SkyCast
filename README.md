@@ -21,8 +21,6 @@
 
 Клонируйте репозиторий:
 
-bash
-Копировать код
 ```
 git clone https://github.com/Ksaers/SkyCast.git
 ```
