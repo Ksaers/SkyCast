@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="bgWeatherPulse" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="686.0" prefWidth="1098.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.skycast.ScyCastController">
+   <children>
+      <Label fx:id="txtDate" layoutX="28.0" layoutY="60.0" style="-fx-text-alignment: left;" text="Среда, 00 Декабря 0000" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="txtTime" layoutX="28.0" layoutY="14.0" text="00:00:00 AM" textAlignment="RIGHT" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="411.0" layoutY="-117.0" prefHeight="198.0" prefWidth="276.0" style="-fx-background-color: #2566c4; -fx-background-radius: 15;">
+         <children>
+            <Label layoutX="80.0" layoutY="126.0" text="SkyCast" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="34.0" />
+               </font>
+            </Label>
+            <Label layoutX="33.0" layoutY="176.0" style="-fx-text-alignment: left;" text="Ваш ежедневный погодный компаньон" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="22.0" layoutY="308.0" prefHeight="327.0" prefWidth="1054.0" style="-fx-background-color: #2566c4; -fx-background-radius: 25;">
+         <children>
+            <Label layoutX="365.0" layoutY="22.0" style="-fx-text-alignment: left;" text="Ближайший прогноз погоды" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Label>
+            <Label fx:id="txtForecastDesc1" alignment="CENTER" contentDisplay="CENTER" layoutX="43.0" layoutY="166.0" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="txtForecastDate1" alignment="CENTER" contentDisplay="CENTER" layoutX="43.0" layoutY="91.0" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="txtForecastDesc2" alignment="CENTER" contentDisplay="CENTER" layoutX="386.0" layoutY="166.0" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="txtForecastDate2" alignment="CENTER" contentDisplay="CENTER" layoutX="386.0" layoutY="91.0" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="txtForecastDesc3" alignment="CENTER" contentDisplay="CENTER" layoutX="727.0" layoutY="166.0" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="txtForecastDate3" alignment="CENTER" contentDisplay="CENTER" layoutX="727.0" layoutY="91.0" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane layoutY="658.0" prefHeight="27.0" prefWidth="1098.0" style="-fx-background-color: #2566c4;">
+         <children>
+            <Hyperlink layoutX="479.0" layoutY="2.0" onAction="#openURL" text="https://github.com/Ksaers" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Hyperlink>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="28.0" layoutY="126.0" prefHeight="164.0" prefWidth="215.0" style="-fx-background-color: #2566c4; -fx-background-radius: 25;">
+         <children>
+            <Label layoutX="30.0" layoutY="14.0" style="-fx-text-alignment: left;" text="Погодные Условия" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Label>
+            <Label fx:id="txtFeels" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="3.0" layoutX="18.0" layoutY="121.0" prefHeight="40.0" prefWidth="179.0" style="-fx-text-alignment: left;" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Label>
+            <Label fx:id="txtWeather" alignment="CENTER" contentDisplay="CENTER" layoutX="9.0" layoutY="23.0" prefHeight="118.0" prefWidth="197.0" style="-fx-text-alignment: left;" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="477.0" layoutY="126.0" prefHeight="164.0" prefWidth="167.0" style="-fx-background-color: #2566c4; -fx-background-radius: 25;">
+         <children>
+            <Label layoutX="38.0" layoutY="14.0" style="-fx-text-alignment: left;" text="Влажность" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Label>
+            <Label fx:id="txtHumidity" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="3.0" layoutX="9.0" layoutY="41.0" prefHeight="118.0" prefWidth="151.0" style="-fx-text-alignment: left;" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="45.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="861.0" layoutY="127.0" prefHeight="164.0" prefWidth="215.0" style="-fx-background-color: #2566c4; -fx-background-radius: 25;">
+         <children>
+            <Label layoutX="36.0" layoutY="14.0" style="-fx-text-alignment: left;" text="Скорость Ветра" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Label>
+            <Label fx:id="txtWind" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="3.0" layoutX="18.0" layoutY="65.0" prefHeight="53.0" prefWidth="179.0" style="-fx-text-alignment: left;" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Label>
+            <Label fx:id="txtDirection" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="3.0" layoutX="18.0" layoutY="111.0" prefHeight="53.0" prefWidth="179.0" style="-fx-text-alignment: left;" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="656.0" layoutY="126.0" prefHeight="164.0" prefWidth="190.0" style="-fx-background-color: #2566c4; -fx-background-radius: 25;">
+         <children>
+            <Label layoutX="54.0" layoutY="14.0" prefWidth="90.0" style="-fx-text-alignment: left;" text="Давление" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Label>
+            <Label fx:id="txtPressure" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="3.0" layoutX="23.0" layoutY="67.0" prefHeight="38.0" prefWidth="138.0" style="-fx-text-alignment: left;" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="252.0" layoutY="126.0" prefHeight="164.0" prefWidth="215.0" style="-fx-background-color: #2566c4; -fx-background-radius: 25;">
+         <children>
+            <Label layoutX="50.0" layoutY="14.0" style="-fx-text-alignment: left;" text="Температура" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Label>
+            <Label fx:id="txtTemp" alignment="CENTER" contentDisplay="CENTER" layoutX="32.0" layoutY="24.0" prefHeight="118.0" prefWidth="151.0" style="-fx-text-alignment: left;" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Label>
+            <Label fx:id="txtMinHigh" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="3.0" layoutX="18.0" layoutY="117.0" prefHeight="40.0" prefWidth="179.0" style="-fx-text-alignment: left;" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.5" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label fx:id="txtLocation" alignment="CENTER" graphicTextGap="3.0" layoutX="715.0" layoutY="19.0" prefHeight="40.0" prefWidth="361.0" style="-fx-text-alignment: left;" text="Colombo / Sri Lanka" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+   </children>
+</AnchorPane>
