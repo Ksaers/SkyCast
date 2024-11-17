@@ -1,0 +1,21 @@
+
+¡
+java:S1104"YMake weatherApiKey a static final constant or non-public and provide accessors if needed.(¨‰Ğªùÿÿÿÿ8ªœÒ‹³2J$f48bd8e5-6347-46b2-9dbb-5f03e26fb8d8
+{
+java:S1444"3Make this "public static weatherApiKey" field final(¨‰Ğªùÿÿÿÿ8¬œÒ‹³2J$7e59c6b0-0840-4c3f-9689-1601550958e7
+f
+java:S3010"#Remove this assignment of "apiKey".(¬úÌç8³œÒ‹³2J$da54ced1-7ab3-4f1f-8b45-66cd5bbc7a7a
+x
+java:S2209"5Change this instance-reference to a static reference.(¬úÌç8³œÒ‹³2J$7680ff92-d8f9-4bef-b71a-863e85bef633
+r	java:S106"+Replace this use of System.out by a logger.(ñ¼Õÿüÿÿÿÿ8´œÒ‹³2J$f801467c-befd-4402-88d4-e38974b56738
+i
+java:S1168"&Return an empty array instead of null.(¥¹ï8´œÒ‹³2J$3e16dd43-2d52-47d2-a16e-78bdcc8d87a0
+
+java:S1117)"<Rename "publicIP" which hides the field declared at line 12.(Û¿ÅÈ8¦±Ô‹³2J$6804113c-4945-4250-a645-43f7e018e635
+m	java:S106C"+Replace this use of System.out by a logger.(Ë™•†8¸œÒ‹³2J$0a84d6c7-a5fc-4c46-bc46-a3cb703aea22
+m	java:S106b"+Replace this use of System.out by a logger.(ÎôÅî8»œÒ‹³2J$1171f51f-8517-4611-a076-dd867ff64930
+s	java:S106‚"+Replace this use of System.out by a logger.(Ó§²›ıÿÿÿÿ8¼œÒ‹³2J$38bd46fb-1da8-4a31-9b07-4f4fd5579845
+n	java:S106"+Replace this use of System.out by a logger.(Ë™•†8½œÒ‹³2J$e66220d7-c4f5-4284-a274-162800f47af9
+n	java:S106­"+Replace this use of System.out by a logger.(ÄâŒ«8ãõÒ‹³2J$421bf8bb-29a0-4952-b32d-5b51d8507c1c
+j
+java:S1168®"&Return an empty array instead of null.(¥¹ï8½œÒ‹³2J$7a77264f-f639-49c8-8bf7-4f75529a7710

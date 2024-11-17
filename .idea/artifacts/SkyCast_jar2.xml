@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact name="SkyCast:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/SkyCast_jar2</output-path>
+    <root id="root">
+      <element id="archive" name="SkyCast.jar">
+        <element id="module-output" name="SkyCast" />
+      </element>
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:17.0.6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:win:17.0.6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:17.0.6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-media:win:17.0.2" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:win:17.0.6" />
+      <element id="library" level="project" name="Maven: org.json:json:20240303" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:win:17.0.6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:17.0.6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-media:17.0.2" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:17.0.6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:win:17.0.6" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,22 @@
+
+œ
+java:S1192Õ"SDefine a constant instead of duplicating this literal "dd MMM, yyyy
+HH:mm" 3 times.(ßåÂÔøÿÿÿÿ8ÀïñŠ³2J$c6b84d7f-a69f-4e50-9487-4f2b657a3a94
+‰
+java:S1075z"ARefactor your code to get this URI from a customizable parameter.(Æ‡‡ûÿÿÿÿ8ÈïñŠ³2J$7e8400e0-84f5-48b0-80a5-2e4a2147f5b6
+Š
+java:S1075»"ARefactor your code to get this URI from a customizable parameter.(Ÿ€ì¸şÿÿÿÿ8ÍïñŠ³2J$e929d159-83d1-4f82-9f50-b4e3079f2197
+n	java:S106Ì"+Replace this use of System.out by a logger.(¬§×Í8§¨”‹³2J$61226645-c420-497e-a865-6b29509f638f
+
+java:S3252Õ"EUse static access with "javafx.animation.Animation" for "INDEFINITE".(Êı şÿÿÿÿ8ÓïñŠ³2J$f314943a-2049-4f8a-a42f-64700eb1041a
+s	java:S106æ"+Replace this use of System.out by a logger.(±¤õøÿÿÿÿ8æÆ¡‹³2J$46a735e9-b739-46c6-914d-ac0922dc35e8
+s	java:S106ì"+Replace this use of System.out by a logger.(ÈÁ„Èÿÿÿÿÿ8…¤‹³2J$331af284-16b4-4d11-b36d-d78a7c10f033
+n	java:S106¯"+Replace this use of System.out by a logger.(¿‡Æ¹8‘…¤‹³2J$11ded37e-adb3-4d44-95f8-a3177ab138da
+n	java:S106º"+Replace this use of System.out by a logger.(–€ø8ù‚¶‹³2J$b56ad55a-87c7-444c-a172-6b09a10f7432
+s	java:S106Â"+Replace this use of System.out by a logger.(·²›…ÿÿÿÿÿ8ù‚¶‹³2J$f1387427-47e9-4cc2-b5d3-2f4d113ca370
+š
+java:S3457Ö"Q%n should be used in place of \n to produce the platform-specific line separator.(¬¨õÔıÿÿÿÿ8äïñŠ³2J$12714e9a-1b4e-4b66-9307-23f528b3a41b
+š
+java:S3457Ú"Q%n should be used in place of \n to produce the platform-specific line separator.(­Ãùùÿÿÿÿ8÷äÊ³2J$1bd25d83-7483-4c0f-8559-c603b02f23ca
+š
+java:S3457Ş"Q%n should be used in place of \n to produce the platform-specific line separator.(“ˆ´’ÿÿÿÿÿ8˜÷äÊ³2J$3a737f5e-d55c-48ca-8e3c-c06980b63c07
