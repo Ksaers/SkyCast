@@ -1,0 +1,16 @@
+.update-button {
+    -fx-background-color: #1E90FF; /* Синий цвет */
+    -fx-text-fill: white; /* Белый текст */
+    -fx-font-size: 14px; /* Размер шрифта */
+    -fx-font-weight: bold; /* Жирный шрифт */
+    -fx-background-radius: 25px; /* Округлые углы */
+    -fx-padding: 10px 20px; /* Отступы внутри кнопки */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 2); /* Тень для кнопки */
+    -fx-transition: all 0.3s ease; /* Плавный переход для эффектов */
+}
+
+/* Эффект при наведении */
+.update-button:hover {
+    -fx-background-color: #4682B4; /* Темно-синий цвет при наведении */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 10, 0, 0, 5); /* Увеличение тени при наведении */
+}

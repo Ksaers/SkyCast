@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Main-Class: dev.skycast.SkyCastApplication
+Class-Path: javafx-fxml-17.0.6.jar javafx-graphics-17.0.6-win.jar javafx
+ -base-17.0.6.jar javafx-media-17.0.2-win.jar javafx-controls-17.0.6-win
+ .jar json-20240303.jar javafx-fxml-17.0.6-win.jar javafx-graphics-17.0.
+ 6.jar javafx-media-17.0.2.jar javafx-controls-17.0.6.jar javafx-base-17
+ .0.6-win.jar
+

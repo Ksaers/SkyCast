@@ -1,0 +1,25 @@
+
+y
+java:S1117"6Rename "lon" which hides the field declared at line 9.(è©œõ8¼ßµ—‚2J$1c2e2ecf-8e44-4ed8-b381-d86fe3151f37
+z
+java:S1117"7Rename "lat" which hides the field declared at line 10.(æ¸ã8½ßµ—‚2J$aef42e5c-f3e3-47a0-bc11-c7835ca75d2d
+‡
+java:S1117"?Rename "mainWeather" which hides the field declared at line 11.(¹ƒÌÿÿÿÿÿ8½ßµ—‚2J$ab19ee32-8c6f-4408-b1ce-507154122bfb
+‚
+java:S1117"?Rename "description" which hides the field declared at line 12.(Š¡©¸8¾ßµ—‚2J$5d63fd02-d0e8-4d7e-87fc-0b0a9cf3e2a5
+€
+java:S1117"=Rename "feelsLike" which hides the field declared at line 13.(¸ì¤š8¾ßµ—‚2J$2900319a-efcc-48d0-941f-f7f7ba282012
+{
+java:S1117 "8Rename "temp" which hides the field declared at line 14.(ŒÅÊ8¾ßµ—‚2J$61418771-4050-4615-9ec5-11aca29e587f
+ƒ
+java:S1117!";Rename "tempMin" which hides the field declared at line 15.(Æ‰ìşûÿÿÿÿ8¾ßµ—‚2J$13a5b36d-52e3-43c1-9b43-ec50b2b2176e
+ƒ
+java:S1117"";Rename "tempMax" which hides the field declared at line 16.(ôÙúØÿÿÿÿÿ8¾ßµ—‚2J$66522ef6-f43c-4405-8702-eeb7a7cbf473
+„
+java:S1117#"<Rename "pressure" which hides the field declared at line 18.(ß›Ãàıÿÿÿÿ8¾ßµ—‚2J$707c1539-142d-4b43-ba1c-48d320a8d387
+
+java:S1117$"<Rename "humidity" which hides the field declared at line 17.(À¼­’8¾ßµ—‚2J$788efaeb-7165-4ae1-b53d-1e08e375f838
+…
+java:S1117%"=Rename "windSpeed" which hides the field declared at line 19.(‹ä§Ìûÿÿÿÿ8¿ßµ—‚2J$eba2670e-0458-449a-99df-f34098d60c3c
+‰
+java:S1117&"ARename "windDirection" which hides the field declared at line 20.(‡œÕ×ûÿÿÿÿ8¿ßµ—‚2J$7fe5306c-291c-44cd-ac0b-054283e88ba3
